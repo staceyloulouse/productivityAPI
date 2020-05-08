@@ -1,0 +1,98 @@
+body{
+    background:darkslategrey;
+    color:white;
+    margin:0;
+}
+.white{
+    background:white;
+    color: blue;
+    line-height: 100%;
+    width: 30%;
+}
+.green{
+    background:green;
+}
+.red{
+    background:red;
+}
+h1{
+    padding:40px;
+    background:grey;
+    color:white;
+}
+div {
+    inline-size: 30%;
+}
+header{
+    padding:40px;
+    background:blue;
+    position:fixed;
+    color:white;
+
+}
+header nav{
+    align-content: right;
+    background:blue;
+    text-shadow:red;
+}
+footer{
+    background:white;
+    color:blue;
+    height: 150px;
+}
+aside{
+    padding:40px;
+    background:white;
+    color:darkslategrey;
+    text-align:right;
+   
+}
+article{
+    color:white;
+    padding:40px;
+    background:grey;
+    width: 70%;
+ 
+    padding:10px;
+    
+}
+figcaption{
+    color:red;
+    text-emphasis: auto;
+}
+img{
+    position: right;
+}
+video{
+    background:grey;
+    position:center;
+}
+responsive-vid{
+    inline-size: 30%;
+}
+main{
+    background:white;
+}
+a{
+    color:blue;
+    padding:10px 10px 10px;
+    margin: 10px;
+}
+section{
+    align-content: center;
+}
+li{
+    background:white;
+    color:blue;
+}
+.menu{
+    display: grid;
+    grid-template-columns:  50px auto 50px;
+    grid-template-rows: 40px 40px;
+    grid-auto-flow: row;
+    padding:3px;
+}
+th{
+    background: white;
+    color:darkslategrey;
+}

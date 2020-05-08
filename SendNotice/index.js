@@ -1,0 +1,11 @@
+document.getElementById("h1").innerHTML = "Package-In!";
+document.getElementById("passButton").onclick = nextTitle;
+document.getElementById("idkButton").onclick = updateTitle;
+document.getElementById("goodButton").onclick = updateTitle;
+document.getElementById("badButton").onclick = updateTitle;
+document.getElementById("emoji1Button").onclick = selectEmoji;
+document.getElementById("emoji2Button").onclick = selectEmoji;
+document.getElementById("emoji3Button").onclick = selectEmoji;
+document.getElementById("emoji4Button").onclick = selectEmoji;
+document.getElementById("emoji5Button").onclick = selectEmoji;
+document.getElementById("browseButton").onclick = loadTitles;
