@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj": {}
+    "C:\\Users\\stace\\OneDrive\\Documents\\Mendarin\\api\\SendNotice\\SendNotice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj": {
+    "C:\\Users\\stace\\OneDrive\\Documents\\Mendarin\\api\\SendNotice\\SendNotice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj",
+        "projectUniqueName": "C:\\Users\\stace\\OneDrive\\Documents\\Mendarin\\api\\SendNotice\\SendNotice.csproj",
         "projectName": "SendNotice",
-        "projectPath": "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj",
-        "packagesPath": "C:\\Users\\Erick Cheruiyot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\obj\\",
+        "projectPath": "C:\\Users\\stace\\OneDrive\\Documents\\Mendarin\\api\\SendNotice\\SendNotice.csproj",
+        "packagesPath": "C:\\Users\\stace\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stace\\OneDrive\\Documents\\Mendarin\\api\\SendNotice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Erick Cheruiyot\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\stace\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,10 +61,6 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.3, )"
-            },
-            "Twilio": {
-              "target": "Package",
-              "version": "[5.41.0, )"
             }
           },
           "imports": [
@@ -87,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
