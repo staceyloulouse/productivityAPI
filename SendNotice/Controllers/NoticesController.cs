@@ -6,6 +6,7 @@ using AutoMapper;
 using SendNotice.Dtos;
 using Twilio;
 using Twilio.Rest.Api.V2010.Account;
+using Microsoft.Extensions.Configuration;
 
 namespace SendNotice.Controllers
 {
@@ -16,16 +17,15 @@ namespace SendNotice.Controllers
 
         private readonly ISendNoticeRepo _repository;
         private readonly IMapper _mapper;
+        public IConfiguration Configuration { get; }
 
-        public NoticesController(ISendNoticeRepo repository, IMapper mapper)
+        public NoticesController(ISendNoticeRepo repository, IMapper mapper, IConfiguration configuration)
         {
             _repository = repository;
             _mapper = mapper;
+            Configuration = configuration;
 
-            const string accountSid = "AC58f4635b412fea7d8febc46c3f04bb19";
-            const string authToken = "632a1a46b5d89410efa03a16395e6db1";
-
-            TwilioClient.Init(accountSid, authToken);
+            TwilioClient.Init(Configuration.GetSection("accountSid").ToString(), Configuration.GetSection("authToken").ToString());
         }
 
         [HttpGet]
@@ -47,7 +47,6 @@ namespace SendNotice.Controllers
             return NotFound();
         }
 
-
         [HttpPost]
         public ActionResult<NoticeReadDto> CreateNotice(NoticeCreateDto noticeCreateDto)
         {
@@ -58,18 +57,13 @@ namespace SendNotice.Controllers
             var noticeReadDto = _mapper.Map<NoticeReadDto>(noticeModel);
             CreatedAtRoute(nameof(GetNoticeById), new { Id = noticeReadDto.Id }, noticeReadDto);
 
-            
-
-            var message = MessageResource.Create(
-                body: "Hey, Welcome to our new SMS platform. From KIBET",
-                from: new Twilio.Types.PhoneNumber("+18506008350"),
-                to: new Twilio.Types.PhoneNumber("+254719453783")
-            );
-
+            var message = MessageResource.Create(body: noticeReadDto.Message,
+               from: new Twilio.Types.PhoneNumber(Configuration.GetSection("senderid").ToString()),
+               to: new Twilio.Types.PhoneNumber(noticeReadDto.Phone)
+           );
 
             return Ok(noticeReadDto);
         }
-
 
         [HttpDelete("{id}")]
         public ActionResult DeleteNotice(int id)

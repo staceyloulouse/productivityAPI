@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MaFr/Bch31j1Yy04dr8vU+aMTQeqqbixtgdrLBPV8efB/osjeDgYTZquyKbcelInrjDwK+uJfyUeccn+dWdlAQ==",
+  "dgSpecHash": "2c0MDD7GMq4CHaB7BkKsicWq5rY2TFkjX/DXXwEGyqfhEQ7Wpsw62zDFpB+PwHmrI+0x1nxQtGAb1cvOXvxWJQ==",
   "success": true,
-  "projectFilePath": "D:\\STAMLINETECH\\API_MASTER\\productivityAPI-master\\SendNotice\\SendNotice.csproj",
+  "projectFilePath": "D:\\STAMLINETECH\\SendNotice\\SendNotice\\SendNotice.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

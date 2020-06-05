@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj": {}
+    "D:\\STAMLINETECH\\SendNotice\\SendNotice\\SendNotice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj": {
+    "D:\\STAMLINETECH\\SendNotice\\SendNotice\\SendNotice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj",
+        "projectUniqueName": "D:\\STAMLINETECH\\SendNotice\\SendNotice\\SendNotice.csproj",
         "projectName": "SendNotice",
-        "projectPath": "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\SendNotice.csproj",
-        "packagesPath": "C:\\Users\\Erick Cheruiyot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erick Cheruiyot\\Desktop\\Cheru\\productivityAPI-master\\SendNotice\\obj\\",
+        "projectPath": "D:\\STAMLINETECH\\SendNotice\\SendNotice\\SendNotice.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\STAMLINETECH\\SendNotice\\SendNotice\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Erick Cheruiyot\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -87,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
